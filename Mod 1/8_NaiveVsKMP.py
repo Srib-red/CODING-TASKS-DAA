@@ -22,7 +22,7 @@ def Naive_string_search(txt,pat):
     if len(matches) == 0:
         print("No Matches found.\n")
     else:
-        print("Match found at starting index: ", matches)
+        print("Match found at starting index ###from Naive Search###: ", matches)
 
     return comparsion_naive
 
@@ -73,7 +73,7 @@ def kmp_algo(txt, pat):
     if len(matched_idx) == 0:
         print("No Matches found.\n")
     else:
-        print("Match found at starting index: ", matched_idx)
+        print("Match found at starting index ###from KMP###: ", matched_idx)
     
     return comparison_kmp, com_lps
 

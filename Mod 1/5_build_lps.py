@@ -20,5 +20,9 @@ def get_lps(s):
 if __name__ == "__main__":
 
     s1 = "ABCBCABC"
+    arrs1 = []
     #lps: 00000123
-    print(get_lps(s1))
+    for i in range(len(s1)):
+        arrs1.append(s1[i])
+    print(("Pattern: "), arrs1)
+    print(("Lps table: "), get_lps(s1))
